@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+<form>
+	<h1>Sign Up for Free</h1>
+	<div class="top-row">
+		<div class="field-wrap">
+			<input name="firstName" placeholder="First name *" required type="text">
+		</div>
+		<div class="field-wrap">
+			<input name="email" placeholder="Email *" required type="email">
+		</div>
+	</div>
+	<div class="top-row">
+		<div class="field-wrap">
+			<input type="radio" name="sex" id="male" value="male" hidden>
+			<label class="radio" for="male">
+				<span></span>
+				<p>I'm male.</p>
+			</label>
+		</div>
+		<div class="field-wrap">
+			<input type="radio" name="sex" id="female" value="female" hidden>
+			<label class="radio" for="female">
+				<span></span>
+				<p>I'm female.</p>
+			</label>
+		</div>
+	</div>
+	<div class="field-wrap">
+		<input type="checkbox" name="sex" id="newsletter" value="true" hidden>
+		<label class="checkbox" for="newsletter">
+				<span></span>
+				<p>I want to receive the newsletter.</p>
+			</label>
+	</div>
+	<div class="field-wrap">
+		<input type="checkbox" name="sex" id="tos" value="true" hidden>
+		<label class="checkbox" for="tos">
+				<span></span>
+				<p>I accept the Terms Of Service.</p>
+			</label>
+	</div>
+	<button type="submit">Get Started</button>
+</form>
+</body>
+</html>
